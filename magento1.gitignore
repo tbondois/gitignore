@@ -1,0 +1,39 @@
+#### Magento 1.x additional rules from t.bondois.info/gitignore
+/.modman/*
+/*.txt
+/app/etc/local.xml
+errors/local.xml
+/includes/config.php
+.config/*
+/var/*
+downloader/
+google[0-9]*.html
+sitemap.xml
+magmi/state/*.txt
+/media/*
+/media/catalog/product/
+/media/catalog/category/
+/media/wysiwyg/.thumbs/
+/media/import/
+/media/css/
+/media/css_secure/
+/media/js/
+/media/captcha/
+moduleCreator/*
+maintenance.flag
+
+## dev and debug
+#/index.php
+/app/code/local/Varien/*
+/app/code/local/Varien/Profiler.php
+/app/code/local/Wee/DeveloperToolbar/
+/app/etc/modules/Wee_DeveloperToolbar.xml
+/app/code/community/Wee
+wee_developertoolbar.xml
+/skin/frontend/base/default/css/developertoolbar.css
+wee_developertoolbar/
+## temporary patches files :
+*.orig
+*.original
+*.ORIGINAL
+/PATCH_*.sh

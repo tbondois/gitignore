@@ -1,0 +1,31 @@
+#### Symfony 2, 3, Silex additional rules
+/app/config/parameters.yml
+/app/config/parameters.ini
+/app/file_storage/*
+/app/archive/*
+/app/emails/*
+/app/export/*
+/app/import/*
+/app/uploads/*
+build/
+behat.yml
+package.tar
+/packages.json
+/src/Acme/*
+/src/Training/*
+/web/bundles/*
+/web/media/*
+/web/css/*
+/web/js/*
+/web/upload/*
+/web/test.php
+
+## Composer related (symfony-specific)
+/bin/*
+!/bin/console
+!/bin/symfony_requirements
+
+## Information Files
+/CHANGELOG-*
+/UPGRADE-*
+/LICENCE.txt

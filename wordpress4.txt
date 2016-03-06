@@ -1,0 +1,10 @@
+## WordPress 4 additionnal rules
+
+/wp-content/plugins/*
+/wp-content/themes/twentytwelve/*
+/wp-content/themes/twenty*teen/*
+/wp-content/uploads/*cache
+# uncomment if you want to version resources :
+/wp-content/uploads/*
+# uncomment if you want to version plugin code (and deal with frequent deletions) :
+/wp-content/plugins/*

@@ -1,0 +1,12 @@
+#### Laravel 4, 5 & Lumen additional rules from t.bondois.info/gitignore
+/node_modules
+storage/*
+Homestead.yaml
+Homestead.json
+.env
+.env.*.php
+.env.php
+.env.example
+
+## Laravel 4 additional rules
+bootstrap/compiled.php
