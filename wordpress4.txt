@@ -1,3 +1,4 @@
+
 ## WordPress 4 additionnal rules
 
 /wp-content/plugins/*
