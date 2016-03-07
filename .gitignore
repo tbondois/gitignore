@@ -1,3 +1,4 @@
+
 ######## Project specific
 
 # put your specific ignored files here
@@ -92,34 +93,8 @@ __MACOSX/
 #### Exception on htaccess. You can also create a blank .gitkeep file to version empty folders.
 !.gitkeep
 !.htaccess
-#### Symfony 2, 3, Silex additional rules
-/app/config/parameters.yml
-/app/config/parameters.ini
-/app/file_storage/*
-/app/archive/*
-/app/emails/*
-/app/export/*
-/app/import/*
-/app/uploads/*
-build/
-behat.yml
-package.tar
-/packages.json
-/src/Acme/*
-/src/Training/*
-/web/bundles/*
-/web/media/*
-/web/css/*
-/web/js/*
-/web/upload/*
-/web/test.php
 
-## Composer related (symfony-specific)
-/bin/*
-!/bin/console
-!/bin/symfony_requirements
 
-## Information Files
-/CHANGELOG-*
-/UPGRADE-*
-/LICENCE.txt
+
+Warning: readfile(https://raw.githubusercontent.com/tbondois/gitignore/master/wordpress4.gitignore): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in Command line code on line 1
