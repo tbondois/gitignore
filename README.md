@@ -1,7 +1,7 @@
 
 # Gitignore collection files
 
-See [my original blog article in french](http://t.bondois.info) for more détails
+See [my original blog article in french](http://t.bondois.info/gitignore) for more détails
 
 ## Usage
 
