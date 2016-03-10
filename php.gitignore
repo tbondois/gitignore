@@ -1,7 +1,5 @@
 
-######## Project specific
 
-# put your specific ignored files here
 
 ######## t.bondois.info/gitignore PHP rules
 
@@ -31,7 +29,6 @@ tmp/
 #### Dev files
 ## Hint : prefix your dev files/folders by "gign_" (stands for Git IGNore)
 phpinfo.php
-/firegento.php
 /.phpunit/*
 #phpunit.xml
 gign_*
