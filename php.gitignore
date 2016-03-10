@@ -1,6 +1,5 @@
 
 
-
 ######## t.bondois.info/gitignore PHP rules
 
 #### Uncomment next line in case you must NOT version this .gitignore file :
@@ -90,6 +89,3 @@ __MACOSX/
 #### Exception on htaccess. You can also create a blank .gitkeep file to version empty folders.
 !.gitkeep
 !.htaccess
-
-
-
