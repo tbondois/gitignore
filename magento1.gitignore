@@ -7,10 +7,10 @@ google[0-9]*.html
 sitemap.xml
 /*.txt
 .config/*
-/.modgit/
-/.modman/
-/app/code/community/Phoenix/Moneybookers/
-/app/code/community/Cm/RedisSession/
+/.modgit/*
+/.modman/*
+/app/code/community/Phoenix/Moneybookers/*
+/app/code/community/Cm/RedisSession/*
 /app/etc/modules/Phoenix_Moneybookers.xml
 /app/etc/modules/Cm_RedisSession.xml
 /app/etc/local.xml
@@ -19,34 +19,28 @@ sitemap.xml
 /errors/local.xml
 /errors/local.xml.sample
 /includes/config.php
-/downloader/
-#/media/
-/media/banner/
-/media/catalog/category/
-/media/catalog/documents/
-/media/catalog/product/
-/media/wysiwyg/
-/media/import/
-/media/css/
-/media/css_secure/
-/media/js/
-/media/captcha/
-/media/xmlconnect/
+/downloader/*
+#/media/*
+/media/banner/*
+/media/catalog/category/*
+/media/catalog/documents/*
+/media/catalog/product/*
+/media/wysiwyg/*
+/media/import/*
+/media/css/*
+/media/css_secure/*
+/media/js/*
+/media/captcha/*
+/media/xmlconnect/*
 /var/*
 magmi/state/*.txt
 moduleCreator/*
 
 ## dev and debug
 /firegento.php
-/app/code/local/Varien/*
 /app/code/local/Varien/Profiler.php
-/app/code/local/Wee/DeveloperToolbar/
-/app/code/community/Wee
-/app/etc/modules/Wee_DeveloperToolbar.xml
-wee_developertoolbar/
-wee_developertoolbar.xml
-/skin/frontend/base/default/css/developertoolbar.css
 *developertoolbar*
+*DeveloperToolbar*
 
 ## temporary patches files :
 maintenance.flag
