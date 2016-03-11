@@ -1,5 +1,5 @@
 
-#### Smart Symfony 2, 3, Silex, Oro Platform, AkeneoPIM additional rules
+#### Smart Symfony 2, 3, Silex, Oro Platform, Akeneo PIM additional rules
 /app/config/parameters.yml
 /app/config/parameters.ini
 /app/file_storage/*
