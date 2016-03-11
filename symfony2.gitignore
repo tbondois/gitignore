@@ -1,5 +1,5 @@
 
-#### Smart Symfony 2, 3, Silex additional rules
+#### Smart Symfony 2, 3, Silex, Oro, AkeneoPIM additional rules
 /app/config/parameters.yml
 /app/config/parameters.ini
 /app/file_storage/*
@@ -18,7 +18,8 @@ package.tar
 /web/media/*
 /web/css/*
 /web/js/*
-/web/upload/*
+/web/upload/
+/web/uploads/
 /web/test.php
 
 ## Composer related (symfony-specific)
