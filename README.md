@@ -1,4 +1,4 @@
-# Gitignore adaptative rules for PHP projects
+# Smart Gitignore rules for PHP projects
 
 This is a model of .gitignore file for your PHP project. It differs from other models you can see, in GitHub for example, because of the use of regular expressions and exceptions, making the file shorter and the rules smarter and more adaptative to any kind of projects.
 

@@ -1,5 +1,5 @@
 
-#### Magento 2.0 additional rules from t.bondois.info/gitignore
+#### Smart Magento 2.0 additional rules from t.bondois.info/gitignore
 /app/config_sandbox
 /app/etc/config.php
 /app/etc/env.php

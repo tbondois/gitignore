@@ -1,9 +1,5 @@
 
-
-######## t.bondois.info/gitignore PHP rules
-
-#### Uncomment next line in case you must NOT version this .gitignore file :
-#/.gitignore
+######## Smart PHP rules from t.bondois.info/gitignore 
 
 #### Composer related
 /vendor/*
@@ -22,22 +18,26 @@ logs/*
 #### Temp files
 *.tmp
 tmp/
+temp/
 ~*
 *~
 ._*
 
 #### Dev files
-## Hint : prefix your dev files/folders by "gign_" (stands for Git IGNore)
 phpinfo.php
-/.phpunit/*
-#phpunit.xml
-gign_*
+test_mail.php
 *.bk
 *.old
+## Hint : prefix your work files/folders by "gign" (stands for Git IGNore)
+gign*
+/.phpunit/*
+#phpunit.xml
 
 #### Version Control
 /.svn/
 /.gitattributes
+## Uncomment next line in case you must NOT version this .gitignore file :
+#/.gitignore
 
 #### These files in the projet root path should be ignored IN MOST OF CASE :
 /*.7z
@@ -49,7 +49,12 @@ gign_*
 /*.zip
 /*.sql
 /*.csv
-/LICENSE
+
+#### Information/Legal Files
+/CHANGELOG*
+/UPGRADE*
+/LICENSE*
+/LICENCE*
 
 #### IDE files
 ## JetBrains IDEs
@@ -90,3 +95,4 @@ __MACOSX/
 #### Exception on htaccess. You can also create a blank .gitkeep file to version empty folders.
 !.gitkeep
 !.htaccess
+

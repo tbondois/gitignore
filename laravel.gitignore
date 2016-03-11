@@ -1,5 +1,5 @@
 
-#### Laravel 4, 5 & Lumen additional rules from t.bondois.info/gitignore
+#### Smart Laravel 4, 5 & Lumen additional rules from t.bondois.info/gitignore
 /node_modules
 storage/*
 Homestead.yaml

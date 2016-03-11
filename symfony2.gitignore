@@ -1,5 +1,5 @@
 
-#### Symfony 2, 3, Silex additional rules
+#### Smart Symfony 2, 3, Silex additional rules
 /app/config/parameters.yml
 /app/config/parameters.ini
 /app/file_storage/*
@@ -26,7 +26,3 @@ package.tar
 !/bin/console
 !/bin/symfony_requirements
 
-## Information Files
-/CHANGELOG-*
-/UPGRADE-*
-/LICENCE.txt
