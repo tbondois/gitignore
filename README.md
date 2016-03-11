@@ -1,11 +1,11 @@
+# Gitignore adaptative rules for PHP projects
 
-# Gitignore collection files
+This is a model of .gitignore file for your PHP project. It differs from other models you can see, in GitHub for example, because of the use of regular expressions and exceptions, making the file shorter and the rules smarter and more adaptative to any kind of projects.
 
-See [my original blog article in french](http://t.bondois.info/ignore) for more détails
+French users : [my original french article](http://t.bondois.info/gitignore) for more détails.
 
-## Usage
 
-### Method 1 : download content
+# Method 1 : download content by PHP-CLI/SAPI
 
 If you have local HTTP server with PHP-CLI/SAPI running, being in your project root path, type in console command :
 
@@ -25,11 +25,15 @@ If you have local HTTP server with PHP-CLI/SAPI running, being in your project r
 
 `php -r "readfile('https://raw.githubusercontent.com/tbondois/gitignore/master/magento2.gitignore');">>.gitignore`
 
+
 * Additional rules for Magento 1 :
 
 `php -r "readfile('https://raw.githubusercontent.com/tbondois/gitignore/master/magento1.gitignore');">>.gitignore`
+
+or `php -r "readfile('https://raw.githubusercontent.com/github/gitignore/master/Magento.gitignore');">>.gitignore` if you want to exclude all core files from your repository.
 
 
 * Additional rules for Wordpress 4 :
 
 `php -r "readfile('https://raw.githubusercontent.com/tbondois/gitignore/master/wordpress4.gitignore');">>.gitignore`
+

@@ -14,7 +14,7 @@
 /lib/internal/flex/varien/.settings
 /node_modules
 /.grunt
-#/pub/media/*
+/pub/media/*.*
 /pub/media/catalog/*
 /pub/media/customer/*
 /pub/media/downloadable/*
@@ -22,7 +22,6 @@
 /pub/media/theme/*
 /pub/media/theme_customization/*
 /pub/media/wysiwyg/*
-/pub/media/tmp/*
 /pub/media/captcha/*
 /pub/static/*
 /var/*

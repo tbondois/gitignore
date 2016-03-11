@@ -9,6 +9,7 @@
 /vendor/*
 /composer.phar
 /composer
+#/composer.json
 
 #### Applicative-cache files
 *.cache
