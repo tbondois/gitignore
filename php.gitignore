@@ -93,7 +93,9 @@ __MACOSX/
 .AppleDouble
 .LSOverride
 
-#### Exception on htaccess. You can also create a blank .gitkeep file to version empty folders.
+#### Exception
+##  create a blank .gitkeep file to version empty folders :
 !.gitkeep
+## to version all htaccess :
 !.htaccess
 
