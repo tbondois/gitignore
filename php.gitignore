@@ -25,6 +25,7 @@ temp/
 
 #### Dev files
 phpinfo.php
+php_info.php
 test_mail.php
 *.bk
 *.old
