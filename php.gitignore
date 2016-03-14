@@ -24,13 +24,13 @@ temp/
 ._*
 
 #### Dev files
-phpinfo.php
-php_info.php
-test_mail.php
 *.bk
 *.old
 ## Hint : prefix your work files/folders by "gign" (stands for Git IGNore)
 gign*
+phpinfo.php
+php_info.php
+test_mail.php
 /.phpunit/*
 #phpunit.xml
 
