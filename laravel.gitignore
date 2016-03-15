@@ -4,7 +4,8 @@
 /Homestead.yaml
 /Homestead.json
 /.env
-/.env.*
+/.env*.php
+/.env.example
 storage/*
 
 ## Laravel 4 additional rules
