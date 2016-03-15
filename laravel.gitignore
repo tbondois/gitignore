@@ -1,13 +1,14 @@
 
-#### Smart Laravel 4, 5 & Lumen additional rules from t.bondois.info/gitignore
-/node_modules
+#### Smart Laravel 4, 5, Lumen additional rules from t.bondois.info/gitignore
+/node_modules/*
+/Homestead.yaml
+/Homestead.json
+/.env
+/.env.*
 storage/*
-Homestead.yaml
-Homestead.json
-.env
-.env.*.php
-.env.php
-.env.example
 
 ## Laravel 4 additional rules
-bootstrap/compiled.php
+/bootstrap/compiled.php
+
+## Task runner and deployment package
+.rocketeer/
