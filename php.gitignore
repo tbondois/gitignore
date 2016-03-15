@@ -97,6 +97,6 @@ __MACOSX/
 ##  Hint : create a blank .gitkeep file to version empty folders
 !.gitkeep
 ## Hint : prefix a file by gkeep* to alway include him in git
-gkeep*
+!gkeep*
 ## to version all htaccess :
 !.htaccess
