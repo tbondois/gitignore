@@ -19,8 +19,8 @@ logs/*
 #### Temp files
 *.swp
 *.tmp
-tmp/
-temp/
+tmp/*
+temp/*
 ~*
 *~
 ._*
