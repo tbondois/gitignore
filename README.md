@@ -13,6 +13,10 @@ If you have local HTTP server with PHP-CLI/SAPI running, being in your project r
 
 `php -r "readfile('https://raw.githubusercontent.com/tbondois/gitignore/master/php.gitignore');">>.gitignore`
 
+* Bonus : setup a Unix-style configuration for your IDE (need EditorConfig plugin). Will be git-ignored.
+
+`php -r "readfile('https://raw.githubusercontent.com/tbondois/gitignore/master/unix.editorconfig');">>.editorconfig`
+
 * Additional rules for Symfony 2, 3, Silex, Oro Platform, AkeneoPIM :
 
 `php -r "readfile('https://raw.githubusercontent.com/tbondois/gitignore/master/symfony2.gitignore');">>.gitignore`
