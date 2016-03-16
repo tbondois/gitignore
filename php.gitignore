@@ -10,6 +10,7 @@
 #### Applicative-cache files
 *.cache
 cache/*
+Cache/*
 
 #### Log files
 *.log
