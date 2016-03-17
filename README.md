@@ -97,7 +97,6 @@ If you can also add this in the config file to optimize your git experience :
         ci = commit
         cm = commit -m
         ca = commit -a
-        cam = commit -am
         cma = commit -am
         cq = commit -am "quick commit"
 	    co = checkout
