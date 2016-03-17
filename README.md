@@ -92,21 +92,26 @@ If you can also add this in the config file to optimize your git experience :
 	    interactive = auto
 	    status = auto
 	[alias]
-	    a  = add .
+	    aa  = add .
 	    st = status
-	    ci = commit
+        ci = commit
+        cm = commit -m
+        ca = commit -a
+        cam = commit -am
+        cma = commit -am
+        cq = commit -am "quick commit"
 	    co = checkout
 	    br = branch
 	    lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
 	    gl = log --oneline --all --graph --decorate
 	    oops    = commit --amend --no-edit
 	    pusha   = push -vu origin --all
-	    pushd   = push -vu origin develop --tags
 	    pushm   = push -vu origin master --tags
-	    pulld   = pull origin develop
+	    pushd   = push -vu origin develop --tags
 	    pullm   = pull origin master
-	    mapd    = branch --set-upstream-to=origin/develop develop
+	    pulld   = pull origin develop
 	    mapm    = branch --set-upstream-to=origin/master master
+	    mapd    = branch --set-upstream-to=origin/develop develop
 
 
 
