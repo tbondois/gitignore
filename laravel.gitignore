@@ -8,6 +8,10 @@
 /.env*.php
 storage/*
 
+## barryvdh/laravel-ide-helper
+/_ide_helper*
+/.phpstorm.meta.php
+
 ## Laravel 4 additional rules
 /bootstrap/compiled.php
 
