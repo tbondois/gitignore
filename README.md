@@ -45,8 +45,8 @@ or `php -r "readfile('https://raw.githubusercontent.com/github/gitignore/master/
 
 Add (and adapt with the path you want) : 
 
-`[core]
-    excludesfile = C:\\Users\\MyUser\\global.gitignore`
+	[core]
+		excludesfile = C:\\Users\\MyUser\\.gitignore
 
 ## Hint #2 : setup a Unix-style configuration of files for Git and your IDE 
 
