@@ -64,7 +64,7 @@ test_mail.php
 
 #### IDE files
 ## JetBrains IDEs
-.idea*
+/.idea*
 *.ipr
 *.iws
 *.iml
