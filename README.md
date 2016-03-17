@@ -92,7 +92,7 @@ If you can also add this in the config file to optimize your git experience :
 	    interactive = auto
 	    status = auto
 	[alias]
-	    aa  = add .
+	    aa = add .
 	    st = status
         ci = commit
         cm = commit -m
