@@ -71,7 +71,9 @@ Insert/Replace this in your file :
 		whitespace = cr-at-eol
 
 
-A little offtopic, but if you can also add this in the config file to optimize your git experience :
+## Offtopic
+
+If you can also add this in the config file to optimize your git experience :
 
 
 	[http]
