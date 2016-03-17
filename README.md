@@ -92,9 +92,12 @@ If you can also add this in the config file to optimize your git experience :
 	    interactive = auto
 	    status = auto
 	[alias]
-	    a  = add .
+	    aa  = add .
 	    st = status
 	    ci = commit
+	    cm = commit -m
+	    ca = commit -a
+	    cq = commit -a -m "quick commit"
 	    co = checkout
 	    br = branch
 	    lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
