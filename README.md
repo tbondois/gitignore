@@ -6,7 +6,7 @@ French users : [my original french article](http://t.bondois.info/gitignore) for
 
 
     
-# Download .gitignore content by PHP-CLI/SAPI
+## Download .gitignore content by PHP-CLI/SAPI
 
 If you have local HTTP server with PHP-CLI/SAPI running, being in your project root path, type in console command :
 
