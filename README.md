@@ -62,9 +62,9 @@ Very useful for PHP developers (production environments are always GNU/Unix fami
 
 
 	[core]
-	    eol = lf
-	    safecrlf = false
-	    autocrlf = input
+		eol = lf
+		safecrlf = false
+		autocrlf = input
 		whitespace = cr-at-eol
 
 
