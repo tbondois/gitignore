@@ -102,6 +102,7 @@ A little offtopic, but if you can also add this in the config file to optimize y
     pullm   = pull origin master
     mapd    = branch --set-upstream-to=origin/develop develop
     mapm    = branch --set-upstream-to=origin/master master
+    
 `
 
 
