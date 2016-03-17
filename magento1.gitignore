@@ -42,8 +42,8 @@ moduleCreator/*
 *developertoolbar*
 *DeveloperToolbar*
 # magneto/debug :
-app/etc/modules/Sheep_Debug.xml
-app/code/community/Sheep/Debug/
+/app/etc/modules/Sheep_Debug.xml
+/app/code/community/Sheep/Debug/
 sheep_debug.xml
 sheep_debug/
 

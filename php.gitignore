@@ -46,7 +46,7 @@ test_mail.php
 /*.7z
 /*.bz2
 /*.gz
-/.jar
+/*.jar
 /*.rar
 /*.tar
 /*.tgz
