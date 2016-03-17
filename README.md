@@ -39,14 +39,16 @@ or `php -r "readfile('https://raw.githubusercontent.com/github/gitignore/master/
 
 `php -r "readfile('https://raw.githubusercontent.com/tbondois/gitignore/master/wordpress4.gitignore');">>.gitignore`
 
-## Hint #1 : you can also define global gitignore file for all your project
+## Hint #1 : you can also define global gitignore file for all your project :
 
 `git config --edit  --global`
 
-Add (and adapt with the path you want) : 
+Insert this (and adapt with the path you want) : 
 
 	[core]
 		excludesfile = C:\\Users\\MyUser\\.gitignore
+
+So then you will avoid to annoy your teammates pushing new rules in the .gitignore projects for your IDE or tools.
 
 ## Hint #2 : setup a Unix-style configuration of files for Git and your IDE 
 
@@ -60,7 +62,7 @@ Very useful for PHP developers (production environments are always GNU/Unix fami
 
 * In your Git config : type `git config --edit  --global` for global config or `git config --edit` for only a project config.
 
-Add/Replace this in your file :
+Insert/Replace this in your file :
 
 	[core]
 		eol = lf
