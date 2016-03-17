@@ -70,40 +70,39 @@ Very useful for PHP developers (production environments are always GNU/Unix fami
 
 A little offtopic, but if you can also add this in the config file to optimize your git experience :
 
-`
-[http]
-    postBuffer = 524288000
-[push]
-    default = matching
-[diff]
-    mnemonicPrefix = true
-[credential]
-    # for windows : wincred. linux : store
-    helper = wincred
-[color]
-    ui = auto
-    branch = auto
-    diff = auto
-    interactive = auto
-    status = auto
-[alias]
-    a  = add .
-    st = status
-    ci = commit
-    co = checkout
-    br = branch
-    lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
-    gl = log --oneline --all --graph --decorate
-    oops    = commit --amend --no-edit
-    pusha   = push -vu origin --all
-    pushd   = push -vu origin develop --tags
-    pushm   = push -vu origin master --tags
-    pulld   = pull origin develop
-    pullm   = pull origin master
-    mapd    = branch --set-upstream-to=origin/develop develop
-    mapm    = branch --set-upstream-to=origin/master master
-    
-`
+
+	[http]
+	    postBuffer = 524288000
+	[push]
+	    default = matching
+	[diff]
+	    mnemonicPrefix = true
+	[credential]
+	    # for windows : wincred. linux : store
+	    helper = wincred
+	[color]
+	    ui = auto
+	    branch = auto
+	    diff = auto
+	    interactive = auto
+	    status = auto
+	[alias]
+	    a  = add .
+	    st = status
+	    ci = commit
+	    co = checkout
+	    br = branch
+	    lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
+	    gl = log --oneline --all --graph --decorate
+	    oops    = commit --amend --no-edit
+	    pusha   = push -vu origin --all
+	    pushd   = push -vu origin develop --tags
+	    pushm   = push -vu origin master --tags
+	    pulld   = pull origin develop
+	    pullm   = pull origin master
+	    mapd    = branch --set-upstream-to=origin/develop develop
+	    mapm    = branch --set-upstream-to=origin/master master
+
 
 
 
