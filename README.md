@@ -95,7 +95,9 @@ If you can also add this in the config file to optimize your git experience :
 	    aa  = add .
 	    st = status
 	    ci = commit
+	    ca = commit -a
 	    cm = commit -m
+	    cam = commit -am
 	    cma = commit -am
 	    cq = commit -am "quick commit"
 	    co = checkout
@@ -104,12 +106,12 @@ If you can also add this in the config file to optimize your git experience :
 	    gl = log --oneline --all --graph --decorate
 	    oops    = commit --amend --no-edit
 	    pusha   = push -vu origin --all
-	    pushd   = push -vu origin develop --tags
 	    pushm   = push -vu origin master --tags
-	    pulld   = pull origin develop
+	    pushd   = push -vu origin develop --tags
 	    pullm   = pull origin master
-	    mapd    = branch --set-upstream-to=origin/develop develop
+	    pulld   = pull origin develop
 	    mapm    = branch --set-upstream-to=origin/master master
+	    mapd    = branch --set-upstream-to=origin/develop develop
 
 
 
