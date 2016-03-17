@@ -62,10 +62,10 @@ Very useful for PHP developers (production environments are always GNU/Unix fami
 
 
 	[core]
-		eol = lf
-		safecrlf = false
-		autocrlf = input
-		whitespace = cr-at-eol
+	    eol = lf
+	    safecrlf = false
+	    autocrlf = input
+	    whitespace = cr-at-eol
 
 
 A little offtopic, but if you can also add this in the config file to optimize your git experience :
