@@ -10,15 +10,17 @@
 #### Applicative-cache files
 *.cache
 cache/*
+Cache/*
 
 #### Log files
 *.log
 logs/*
 
 #### Temp files
+*.swp
 *.tmp
-tmp/
-temp/
+tmp/*
+temp/*
 ~*
 *~
 ._*
@@ -44,12 +46,15 @@ test_mail.php
 /*.7z
 /*.bz2
 /*.gz
+/.jar
 /*.rar
 /*.tar
 /*.tgz
 /*.zip
 /*.sql
 /*.csv
+/*.dmg
+/.*iso
 
 #### Information/Legal Files
 /CHANGELOG*
