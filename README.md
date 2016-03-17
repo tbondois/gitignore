@@ -96,8 +96,8 @@ If you can also add this in the config file to optimize your git experience :
 	    st = status
 	    ci = commit
 	    cm = commit -m
-	    ca = commit -a
-	    cq = commit -a -m "quick commit"
+	    cma = commit -am
+	    cq = commit -am "quick commit"
 	    co = checkout
 	    br = branch
 	    lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
