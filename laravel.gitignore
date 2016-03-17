@@ -8,12 +8,12 @@
 /.env*.php
 storage/*
 
+## Laravel 4 additional rules
+/bootstrap/compiled.php
+
 ## barryvdh/laravel-ide-helper
 /_ide_helper*
 /.phpstorm.meta.php
-
-## Laravel 4 additional rules
-/bootstrap/compiled.php
 
 ## Task runner and deployment package
 .rocketeer/
