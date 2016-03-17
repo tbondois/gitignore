@@ -41,6 +41,11 @@ moduleCreator/*
 /app/code/local/Varien/Profiler.php
 *developertoolbar*
 *DeveloperToolbar*
+# magneto/debug :
+app/etc/modules/Sheep_Debug.xml
+app/code/community/Sheep/Debug/
+sheep_debug.xml
+sheep_debug/
 
 ## temporary patches files :
 maintenance.flag
