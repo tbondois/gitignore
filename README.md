@@ -59,7 +59,6 @@ Very useful for PHP developers (production environments are always GNU/Unix fami
 `php -r "readfile('https://raw.githubusercontent.com/tbondois/gitignore/master/unix.editorconfig');">>.editorconfig`
 
 
-
 * In your Git config : type `git config --edit  --global` for global config or `git config --edit` for only a project config.
 
 Insert/Replace this in your file :
