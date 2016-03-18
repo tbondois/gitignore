@@ -21,7 +21,7 @@ temp/*
 
 
 #### Composer related
-/vendor/*
+vendor/
 /composer.phar
 /composer
 #/composer.lock
