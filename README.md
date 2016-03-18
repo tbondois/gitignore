@@ -96,8 +96,7 @@ If you can also add this in the config file to optimize your git experience :
 	    st = status
         ci = commit
         cm = commit -m
-        ca = commit -a
-        cma = commit -am
+        acm= commit -am
         cq = commit -am "quick commit"
 	    co = checkout
 	    br = branch

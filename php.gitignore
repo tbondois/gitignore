@@ -19,7 +19,6 @@ temp/*
 *~
 ._*
 
-
 #### Composer related
 vendor/
 /composer.phar
