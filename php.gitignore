@@ -1,12 +1,6 @@
 
 ######## Smart PHP rules from t.bondois.info/gitignore 
 
-#### Composer related
-/vendor/*
-/composer.phar
-/composer
-#/composer.json
-
 #### Applicative-cache files
 *.cache
 cache/*
@@ -24,6 +18,13 @@ temp/*
 ~*
 *~
 ._*
+
+
+#### Composer related
+/vendor/*
+/composer.phar
+/composer
+#/composer.lock
 
 #### Dev files
 *.bk
