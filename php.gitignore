@@ -39,6 +39,7 @@ gign*
 phpinfo.php
 php_info.php
 test_mail.php
+firephp/*
 /.phpunit/*
 #phpunit.xml
 

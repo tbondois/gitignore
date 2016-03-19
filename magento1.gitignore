@@ -37,7 +37,6 @@ magmi/state/*.txt
 moduleCreator/*
 
 ## dev and debug
-firephp/*
 /firegento.php
 /app/code/local/Varien/Profiler.php
 *developertoolbar*
