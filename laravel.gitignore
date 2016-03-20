@@ -12,8 +12,9 @@ storage/*
 /bootstrap/compiled.php
 
 ## barryvdh/laravel-ide-helper
+/.*.meta.php
 /_ide_helper*
-/.phpstorm.meta.php
+/config/ide-helper.php
 
 ## Task runner and deployment package
 .rocketeer/
