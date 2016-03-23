@@ -3,7 +3,6 @@
 /node_modules/*
 /Homestead.yaml
 /Homestead.json
-/.env
 /.env.example
 /.env*.php
 storage/*
@@ -16,5 +15,3 @@ storage/*
 /_ide_helper*
 /config/ide-helper.php
 
-## Task runner and deployment package
-.rocketeer/

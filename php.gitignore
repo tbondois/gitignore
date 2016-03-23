@@ -7,7 +7,7 @@
 ## Uncomment next line in case you must NOT version this .gitignore file :
 #/.gitignore
 
-#### Applicative-cache files
+#### Cache files
 *.cache
 cache/*
 Cache/*
@@ -17,19 +17,13 @@ Cache/*
 logs/*
 
 #### Temp files
-*.swp
 *.tmp
 tmp/*
 temp/*
+*.swp
 ~*
 *~
 ._*
-
-#### Composer related
-vendor/
-/composer.phar
-/composer
-#/composer.lock
 
 #### Dev files
 *.bk
@@ -39,9 +33,23 @@ gign*
 phpinfo.php
 php_info.php
 test_mail.php
+/sandbox/*
+
+#### Popular PHP libraties
+## Composer
+vendor/
+/composer.phar
+/composer
+#/composer.lock
+## vlucas/phpdotenv
+/.env
+## firePHP
 firephp/*
+## PHPUnit
 /.phpunit/*
 #phpunit.xml
+## rocketeers/rocketeer Task runner and deployment package
+.rocketeer
 
 #### These files in the projet root path should be ignored IN MOST OF CASE :
 /*.7z
