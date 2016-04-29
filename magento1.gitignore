@@ -1,6 +1,6 @@
 
 #### Smart Magento 1.x additional rules from t.bondois.info/gitignore
-#/index.php
+/index.php
 /index.php.sample
 /install.php
 google[0-9]*.html
@@ -38,10 +38,10 @@ moduleCreator/*
 
 ## dev and debug
 /firegento.php
+firephp-core/*
 /app/code/local/Varien/Profiler.php
 *developertoolbar*
 *DeveloperToolbar*
-
 # magneto/debug :
 /app/code/community/Sheep/Debug/*
 /app/etc/modules/Sheep_Debug.xml
