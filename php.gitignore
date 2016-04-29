@@ -35,7 +35,7 @@ php_info.php
 test_mail.php
 /sandbox/*
 
-#### Popular PHP libraties
+#### Popular PHP libraries
 ## Composer
 vendor/
 /composer.phar
@@ -44,7 +44,7 @@ vendor/
 ## vlucas/phpdotenv
 /.env
 ## firePHP
-firephp/*
+firephp-core/*
 ## PHPUnit
 /.phpunit/*
 #phpunit.xml
