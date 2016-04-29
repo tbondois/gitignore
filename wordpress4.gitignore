@@ -1,6 +1,6 @@
 
 #### Smart WordPress 4 additionnal rules
-
+wp-config.php
 /wp-content/plugins/*
 /wp-content/themes/twentytwelve/*
 /wp-content/themes/twenty*teen/*
