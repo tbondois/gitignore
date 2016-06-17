@@ -4,7 +4,9 @@
 /index.php.sample
 /install.php
 google[0-9]*.html
+/*.phar
 sitemap.xml
+/sitemap/*
 /*.txt
 .config/*
 /.modgit/*
