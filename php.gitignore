@@ -28,12 +28,12 @@ temp/*
 #### Dev files
 *.bk
 *.old
-## Hint : prefix your work files/folders by "gign" (stands for Git IGNore)
-gign*
 phpinfo.php
 php_info.php
 test_mail.php
 /sandbox/*
+## Hint : prefix your work files/folders by "gign" (stands for Git IGNore)
+gign*
 
 #### Popular PHP libraries
 ## Composer
