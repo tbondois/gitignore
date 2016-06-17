@@ -23,6 +23,10 @@ sitemap.xml
 /includes/config.php
 /downloader/*
 #/media/*
+media/.htaccess
+media/customer/
+media/dhl/
+media/downloadable/
 /media/banner/*
 /media/catalog/category/*
 /media/catalog/documents/*
