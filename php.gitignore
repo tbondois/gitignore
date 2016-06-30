@@ -64,7 +64,7 @@ firephp-core/*
 /*.sql
 /*.csv
 /*.dmg
-/.*iso
+/*.iso
 
 #### Information/Legal Files
 /CHANGELOG*
