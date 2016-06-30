@@ -1,6 +1,7 @@
 
 #### Smart Magento 1.x additional rules from t.bondois.info/gitignore
 /magerun
+/n98-magerun
 /*.phar
 /index.php
 /index.php.sample
