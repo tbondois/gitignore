@@ -1,10 +1,11 @@
 
 #### Smart Magento 1.x additional rules from t.bondois.info/gitignore
+/magerun
+/*.phar
 /index.php
 /index.php.sample
 /install.php
 google[0-9]*.html
-/*.phar
 sitemap.xml
 /sitemap/*
 /*.txt
