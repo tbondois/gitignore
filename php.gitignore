@@ -61,10 +61,10 @@ firephp-core/*
 /*.tar
 /*.tgz
 /*.zip
-/*.sql
 /*.csv
 /*.dmg
 /*.iso
+/*.sql
 
 #### Information/Legal Files
 /CHANGELOG*
