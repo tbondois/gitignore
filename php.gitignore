@@ -27,6 +27,7 @@ temp/*
 
 #### Dev files
 *.bk
+*.bak
 *.old
 phpinfo.php
 php_info.php
