@@ -5,9 +5,9 @@
 /index.php
 /index.php.sample
 /install.php
-google[0-9]*.html
-sitemap.xml
+sitemap*.xml
 /sitemap/*
+google[0-9]*.html
 /*.txt
 .config/*
 /.modgit/*
@@ -59,7 +59,7 @@ firegento.php
 /skin/adminhtml/default/default/sheep_debug/*
 
 ## temporary patches files :
-maintenance.flag
+/maintenance.flag*
 *.orig
 *.original
 *.ORIGINAL
