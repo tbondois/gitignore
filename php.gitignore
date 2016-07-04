@@ -86,7 +86,6 @@ firephp-core/*
 /.settings
 ## Others
 /atlassian*
-/sitemap
 *.scc
 .externalToolBuilders
 .vimrc
@@ -109,6 +108,6 @@ __MACOSX/
 #### Exceptions
 ##  Hint : create a blank .gitkeep file to version empty folders
 !.gitkeep
-## to version all htaccess :
+## to version all htaccess uncomment :
 #!.htaccess
 
