@@ -42,11 +42,10 @@ gign_*
 vendor/
 /composer.phar
 /composer
-#/composer.lock
-## vlucas/phpdotenv
+## phpdotenv
 /.env
 ## firePHP
-firephp-core/*
+firephp*
 ## PHPUnit
 /.phpunit/*
 #phpunit.xml
