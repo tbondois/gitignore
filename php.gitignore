@@ -9,8 +9,8 @@
 
 #### Cache files
 *.cache
-cache/*
-Cache/*
+cache/
+Cache/
 
 #### Log files
 *.log
