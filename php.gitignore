@@ -107,6 +107,6 @@ __MACOSX/
 #### Exceptions
 ##  Hint : create a blank .gitkeep file to version empty folders
 !.gitkeep
-## to version all htaccess uncomment :
+## to version all htaccess, uncomment :
 #!.htaccess
 
