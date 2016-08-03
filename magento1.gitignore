@@ -1,7 +1,6 @@
 
 #### Smart Magento 1.x additional rules from t.bondois.info/gitignore
-/*magerun*
-/*.phar
+
 /index.php
 /index.php.sample
 /install.php
@@ -44,6 +43,8 @@ magmi/state/*.txt
 moduleCreator/*
 
 ## dev and debug
+/*magerun*
+/*.phar
 firegento.php
 /app/code/local/Varien/Profiler.php
 *developertoolbar*
