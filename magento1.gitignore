@@ -58,9 +58,6 @@ firegento.php
 /app/design/adminhtml/default/default/template/sheep_debug/
 /skin/adminhtml/default/default/sheep_debug/*
 
-## temporary patches files :
+## temporary maintenance files :
 /maintenance.flag*
-*.orig
-*.original
-*.ORIGINAL
 /PATCH_*.sh
