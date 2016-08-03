@@ -36,9 +36,11 @@ test_mail.php
 ## Hint : prefix your work files/folders by "gign" (stands for Git IGNore)
 gign-*
 gign_*
-orig_
+orig_*
 *.orig
+*.original
 *.ORIG
+*.ORIGINAL
 
 #### Popular PHP libraries
 ## Composer
