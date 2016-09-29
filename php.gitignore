@@ -88,6 +88,8 @@ firephp*
 /.metadata
 /.project
 /.settings
+## Sublime
+*.sublime-*
 ## Others
 /atlassian*
 *.scc
