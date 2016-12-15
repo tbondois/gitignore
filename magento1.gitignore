@@ -1,6 +1,6 @@
 
 #### Smart Magento 1.x additional rules from t.bondois.info/gitignore
-
+/.htaccess.sample
 /index.php
 /index.php.sample
 /install.php
