@@ -3,7 +3,7 @@
 *.sample
 /index.php
 /install.php
-sitemap*.xml
+/sitemap*.xml
 /sitemap/*.xml
 google[0-9]*.html
 /*.txt
